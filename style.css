@@ -1,0 +1,74 @@
+body {
+    font-size: 18px;
+    line-height: 1.4;
+    font-family: Segoe UI, arial;
+    color:#87b913;
+    background-color: #ccc;
+}
+.title {
+    text-align: center;
+    letter-spacing: 5px;
+}
+.justify {
+    text-align: justify;
+    color:rgb(172, 3, 3);
+    font-weight: bold;
+    font-style: italic;
+}
+.type {
+    list-style-type: circle;
+}
+.table {
+    color: #000;
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+.table th {
+    padding: 5px 10px 15px 10px;
+    text-align: left;
+}
+.table td {
+    padding: 5px 10px 15px 10px;
+    border: 1px solid #000;
+}
+.table tfoot td {
+    text-align: right;
+}
+.text-color {
+    display: inline-block;
+    color: darkgreen;
+    font-weight: bold;
+    font-style: italic;
+}
+.content {
+    color: darkred;
+}
+.page {
+    width: 1000px; 
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Post */
+.post {
+    width: 700px;
+    height: 400px;
+    padding: 10px 20px ;
+    border: 1px solid #ccc;
+    margin-left: auto ;
+    margin-right: auto;
+    background-image: url(../img/Lemur.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center ;
+    
+}
+.post-title {
+    text-align: center;
+    color: darkslateblue;
+    margin: 0 0 10px 0;
+}
+.post-text p {
+    margin: 0 0 10px 0;
+}
